@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineProvider="bounds"
+    android:clipToOutline="true"
+    android:background ="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:srcCompat="@drawable/welcome" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="279dp"
+        android:layout_height="113dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/button"
+        android:text="Start Game"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/topscores_button"
+        android:layout_width="279dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="TOP 25 SCORES"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/menu_quit_button"
+        android:layout_width="279dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Quit"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

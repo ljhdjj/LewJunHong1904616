@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background ="@drawable/score">
+
+    <TextView
+        android:id="@+id/high_scores_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/high_scores_title"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/scorers_list"
+        android:layout_width="548dp"
+        android:layout_height="884dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/score_quit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="quitGame"
+            android:background="@drawable/exit"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
