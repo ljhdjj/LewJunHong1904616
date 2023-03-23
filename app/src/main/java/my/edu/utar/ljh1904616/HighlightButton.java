@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 public class HighlightButton extends android.support.v7.widget.AppCompatButton {
 
     public boolean isHighlighted;
+    public boolean asd;
 
     public HighlightButton(Context context) {
         super(context);
